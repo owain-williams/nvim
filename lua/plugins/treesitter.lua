@@ -3,5 +3,5 @@ return {
   branch = 'master', 
   lazy = false, 
   build = ":TSUpdate",
-  ensure_installed = {"lua", "html", "css", "javascript", "typescript"}
+  auto_install = true
 }
